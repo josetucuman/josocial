@@ -10,5 +10,6 @@ module.exports = app => {
     rutas.post('/images', img.crearImagen);
     rutas.post('/images/:img_id/likes', img.likearImagen);
     rutas.post('/images/:img_id/comentar', img.comentarImagen);
+    rutas.delete('/images/:img_id', img.deleteImagen);
     app.use(rutas)
 };

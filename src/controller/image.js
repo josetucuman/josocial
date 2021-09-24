@@ -12,4 +12,6 @@ ctrlImage.likearImagen = (req, res) => {}
 
 ctrlImage.comentarImagen = (req, res) => {}
 
+ctrlImage.deleteImagen = (req, res) => {}
+
 module.exports = ctrlImage;

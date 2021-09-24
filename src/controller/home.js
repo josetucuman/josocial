@@ -1,7 +1,7 @@
 const ctrlHome = {};
 
 ctrlHome.index = (req, res) =>{
-    res.send('Hola Mundo desde CONTROLLER!!!')
+    res.render('index')
 }
 
 ctrlHome.about = (req, res) =>{
